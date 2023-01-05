@@ -1,10 +1,6 @@
 library(tidyverse)
 ## 1.2 FILTER AND MERGE DATA
 
-library(dplyr)
-library(tidyr)
-library(readr)
-
 reviews <- read_csv("data/reviews.csv")
 listings <- read_csv("data/listings.csv")
 
