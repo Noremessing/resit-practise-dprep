@@ -8,8 +8,8 @@ get_data <- function(url, filename){
   download.file(url = url, destfile = paste0(filename, ".csv"))
 }
 
-url_listings <- "http://data.insideairbnb.com/the-netherlands/north-holland/amsterdam/2022-06-05/visualisations/listings.csv"
-url_reviews <- "http://data.insideairbnb.com/the-netherlands/north-holland/amsterdam/2022-06-05/visualisations/reviews.csv"
+url_listings <- "http://data.insideairbnb.com/italy/lazio/rome/2022-09-11/visualisations/listings.csv"
+url_reviews <- "http://data.insideairbnb.com/italy/lazio/rome/2022-09-11/visualisations/reviews.csv"
 
 dir.create('data')
 get_data(url_listings, "data/listings")
