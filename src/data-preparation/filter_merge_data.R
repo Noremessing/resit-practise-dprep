@@ -18,5 +18,6 @@ df_merged <- reviews_filtered %>%
 df_listings_merged <- df_merged %>% group_by(listing_id) %>% summarise(num_reviews = n()) %>% arrange(desc(num_reviews)) %>% filter(num_reviews <= 100)
 
 dir.create('gen')
+dir.create ('gen/analysis')
 dir.create('gen/analysis/temp')
 write.csv(df_listings_merged, "gen/analysis/temp/df_listings_merged.csv")
