@@ -6,16 +6,22 @@ In this repository the code of an empirical project on the Airbnb housing market
 The code is made to combine the review and listings information on inside Airbnb and converted into a histogram and line plot output. 
 ## Repository overview
 Provide an overview of the directory structure and files, for example:
-├── README.md
-├── data
-├── gen
-│   ├── analysis
-│   ├── data-preparation
-│   └── paper
-└── src
-    ├── analysis
-    ├── data-preparation
-    └── paper
+# 2. Repository overview
+```
+- data
+- gen
+  - input
+  - output
+  - temp
+- src
+  - analysis
+  - data-preparation
+  - paper
+- .gitignore
+- README.md
+- Makefile
+```
+
 ## Running instructions
 The following programs need to be installed to replicate the project:<br/>
 
