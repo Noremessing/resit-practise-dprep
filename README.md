@@ -51,4 +51,4 @@ The following programs need to be installed to replicate the project:<br/>
 Point interested users to any related literature and/or documentation.
 
 ## About
-Explain who has contributed to the repository. You can say it has been part of a class you've taken at Tilburg University.
+This repository is hosted for the course Data Preparation and Workflow Management of TiSEM at Tilburg University. This research is done by Nore Messing for the resit of the course.
